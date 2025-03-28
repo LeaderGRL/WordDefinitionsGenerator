@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configurer l'API OpenAI avec votre clé
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("YOUR OPENAI API KEY")
 
 def generate_word_info(word):
     """Utilise l'API de ChatGPT pour générer la définition et la difficulté d'un mot."""
